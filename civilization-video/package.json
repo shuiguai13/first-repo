@@ -1,0 +1,15 @@
+{
+  "name": "civilization-video",
+  "private": true,
+  "type": "module",
+  "description": "从火种到星辰：人类文明进步史与未来三十年 — procedural documentary video",
+  "scripts": {
+    "render": "node render/render.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2",
+    "lucide-static": "0.468.0"
+  }
+}

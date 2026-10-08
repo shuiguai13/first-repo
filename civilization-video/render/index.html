@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>从火种到星辰 · renderer</title>
+<style>
+  @font-face { font-family: "Noto Serif SC"; font-weight: 400; src: url("../.cache/fonts/NotoSerifSC-400.ttf"); }
+  @font-face { font-family: "Noto Serif SC"; font-weight: 700; src: url("../.cache/fonts/NotoSerifSC-700.ttf"); }
+  @font-face { font-family: "Noto Serif SC"; font-weight: 900; src: url("../.cache/fonts/NotoSerifSC-900.ttf"); }
+  @font-face { font-family: "Noto Sans SC"; font-weight: 300; src: url("../.cache/fonts/NotoSansSC-300.ttf"); }
+  @font-face { font-family: "Noto Sans SC"; font-weight: 400; src: url("../.cache/fonts/NotoSansSC-400.ttf"); }
+  @font-face { font-family: "Noto Sans SC"; font-weight: 500; src: url("../.cache/fonts/NotoSansSC-500.ttf"); }
+  @font-face { font-family: "Noto Sans SC"; font-weight: 700; src: url("../.cache/fonts/NotoSansSC-700.ttf"); }
+  @font-face { font-family: "Ma Shan Zheng"; font-weight: 400; src: url("../.cache/fonts/MaShanZheng-400.ttf"); }
+  @font-face { font-family: "Cinzel"; font-weight: 400; src: url("../.cache/fonts/Cinzel-400.ttf"); }
+  @font-face { font-family: "Cinzel"; font-weight: 700; src: url("../.cache/fonts/Cinzel-700.ttf"); }
+  @font-face { font-family: "Inter"; font-weight: 300; src: url("../.cache/fonts/Inter-300.ttf"); }
+  @font-face { font-family: "Inter"; font-weight: 400; src: url("../.cache/fonts/Inter-400.ttf"); }
+  @font-face { font-family: "Inter"; font-weight: 600; src: url("../.cache/fonts/Inter-600.ttf"); }
+  @font-face { font-family: "Inter"; font-weight: 800; src: url("../.cache/fonts/Inter-800.ttf"); }
+  @font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url("../.cache/fonts/JetBrainsMono-400.ttf"); }
+  @font-face { font-family: "JetBrains Mono"; font-weight: 700; src: url("../.cache/fonts/JetBrainsMono-700.ttf"); }
+  @font-face { font-family: "Noto Sans Devanagari"; font-weight: 400; src: url("../.cache/fonts/NotoSansDevanagari-400.ttf"); }
+  @font-face { font-family: "Noto Naskh Arabic"; font-weight: 400; src: url("../.cache/fonts/NotoNaskhArabic-400.ttf"); }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+</style>
+<script src="../node_modules/d3-array/dist/d3-array.min.js"></script>
+<script src="../node_modules/d3-geo/dist/d3-geo.min.js"></script>
+<script src="../node_modules/topojson-client/dist/topojson-client.min.js"></script>
+</head>
+<body>
+<canvas id="screen" width="1920" height="1080"></canvas>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
