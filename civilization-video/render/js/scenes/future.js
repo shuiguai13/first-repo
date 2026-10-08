@@ -788,7 +788,7 @@ function end(g, S) {
   const lines = [
     '数据与资料：联合国《世界人口展望2024》、世界银行、Our World in Data、国际能源署（IEA）等',
     '未来部分为基于当前趋势、科研进展与公开规划的展望，并非确定的预测',
-    '解说：AI合成语音（Kokoro）　·　画面与配乐：程序生成',
+    `解说：AI合成语音（${(window.TL && window.TL.voiceLabel) || 'Kokoro'}）　·　画面与配乐：程序生成`,
   ];
   lines.forEach((ln, i) => text(g, ln, W / 2, 620 + i * 52, { size: 24, font: 'sans', color: '#aab6cc', alpha: b }));
 }
